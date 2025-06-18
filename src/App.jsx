@@ -1,8 +1,13 @@
+import { Container } from "react-bootstrap"
+import Frase from "./components/Frase"
+
 function App() {
   return (
-    <>
-     <h1>hola mundo</h1>
-    </>
+    <Container>
+      <img src="" alt="" />
+     <h1>Frase simpsons</h1>
+     <Frase></Frase>
+    </Container>
   )
 }
 
