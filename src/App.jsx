@@ -38,7 +38,7 @@ function App() {
       <img src={logo} alt="Logo de los simpsons" className="w-100" />
       <h1 className="display-3 my-4">Frase simpsons</h1>
       <Frase personaje={personaje}></Frase>
-      <Button variant="warning" className="mt-4">
+      <Button variant="warning" className="mt-4" onClick={obtenerFrase}>
         Obtener Frase
       </Button>
     </Container>
